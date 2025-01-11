@@ -1,0 +1,151 @@
+body {font-family: "Roboto", sans-serif; line-height: 1.50;
+}
+a {text-decoration: none;}
+ul {list-style-type: none;}
+/*--------------HEADER------------- */
+.header {}
+
+.header-nav {}
+
+.header-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #2e2f42;
+}
+
+.logo-span { color:#4d5ae5; }
+
+.header-menu-list {}
+
+.header-menu-item {}
+
+.header-menu-link {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.50;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+.address {}
+
+.address-menu {}
+
+.address-menu-item {}
+
+.address-menu-link {
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.50;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+/*-------------- HERO------------- */
+
+.hero {background-color: #2e2f42;}
+
+.hero-title {
+    font-weight: 700;
+        font-size: 56px;
+        line-height: 10.7;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #ffffff;
+        background: #2e2f42;
+}
+
+.hero-btn {font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.04em;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+
+/*-------------- FUETURES------------- */
+.fuetures {}
+
+.visually-hidden {}
+
+.features-list {}
+
+.fuetures-item {}
+
+.fuetures-subtitle {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 120%;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+.fuetures-item-text {
+font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/*-------------- TASTE------------- */
+.taste {}
+
+.taste-item {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
+
+.taste-menu {}
+
+.taste-list {}
+
+.taste-img {}
+
+.taste-name {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.20;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
+
+.taste-text {
+font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+/*-------------- FOOTER------------- */
+.footer{
+    background: #2e2f42;
+}
+
+.fouter-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #f4f4fd;
+}
+
+.logo-span {}
+
+.footer-text {
+    font-size: 16px;
+        line-height: 1.50;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
+}
