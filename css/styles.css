@@ -19,7 +19,7 @@ ul {list-style-type: none;}
 
 .logo-span { color:#4d5ae5; }
 
-.header-menu-list {}
+.header-menu-list {} 
 
 .header-menu-item {}
 
@@ -81,7 +81,7 @@ ul {list-style-type: none;}
 .fuetures-subtitle {
     font-weight: 500;
         font-size: 20px;
-        line-height: 120%;
+        line-height: 1.20;
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
