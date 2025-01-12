@@ -47,7 +47,7 @@ color: #434455;
 .address-menu-link:focus{color: #404bbf}
 /*-------------- HERO------------- */
 
-.hero {background-color:#2e2f42}
+.hero {background-color:#2e2f42;}
 
 .hero-title {
 font-weight: 700;
@@ -94,7 +94,7 @@ background-color: #FFFFFF;}
 
 
 .taste {background-color: #F4F4FD;}
-.taste-menu {background-color: #ffffff;}
+.taste-menu {background-color: #FFFFFF;}
 .taste-list{}
 .taste-item {
 font-weight: 700;
