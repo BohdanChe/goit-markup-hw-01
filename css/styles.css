@@ -93,9 +93,9 @@ background-color: #FFFFFF;}
 
 
 
-.taste {background-color: #F4F4FD}
-.taste-menu {}
-.taste-list{background-color: #ffffff;}
+.taste {background-color: #F4F4FD;}
+.taste-menu {background-color: #ffffff;}
+.taste-list{}
 .taste-item {
 font-weight: 700;
 font-size: 36px;
