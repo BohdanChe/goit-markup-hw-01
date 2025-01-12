@@ -93,7 +93,7 @@ background-color: #FFFFFF;}
 
 
 
-.taste {background: #f4f4fd;}
+.taste {background: #ffffff;}
 .taste-menu {}
 .taste-item {
 font-weight: 700;
@@ -102,7 +102,6 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
-background-color: #FFFFFF;
 text-transform: capitalize;
 }
 
