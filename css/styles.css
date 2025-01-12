@@ -39,7 +39,7 @@ font-size: 16px;
 line-height: 1.50;
 letter-spacing: 0.02em;
 color: #434455;
-font-style: normal
+font-style: normal;
 }
 .address-menu-link:hover,
 .address-menu-link:focus{color: #404bbf}
@@ -63,6 +63,7 @@ line-height: 1.50;
 letter-spacing: 0.04em;
 color: #fff;
 cursor: pointer;
+background-color: #4D5AE5
 }
 .hero-btn:hover,
 .hero-btn:focus { background-color: #404BBF}
@@ -91,14 +92,13 @@ background-color: #FFFFFF;}
 
 
 .taste {background: #f4f4fd;}
-
+.taste-menu {background-color: #FFFFFF}
 .taste-item {
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
-        
 color: #2e2f42;
 }
 
@@ -111,6 +111,7 @@ line-height: 1.20;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+text-transform: capitalize;
 }
 
 .taste-text {
@@ -122,9 +123,7 @@ color: #434455;
 }
 
 
-/*-------------- PORTFOLIO------------- */
-
-
+/*-------------- PORTFOLIO-------------*/
 
 .portfolio-item {
 font-weight: 700;
