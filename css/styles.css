@@ -1,4 +1,4 @@
-body {font-family: "Roboto", sans-serif;
+.body {font-family: "Roboto", sans-serif;
 color: #434455; 
 background-color:#ffffff
 
@@ -17,10 +17,10 @@ font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #2e2f42;
+color:#4d5ae5
 }
 
-.logo-span { color:#4d5ae5; }
+.logo-span { color: #2e2f42 }
 
 .header-menu {} 
 
