@@ -1,11 +1,70 @@
 body {font-family: "Roboto", sans-serif;
 color: #434455; 
-background-color:#ffffff}
-
-a {text-decoration: none;}
+background-color:#ffffff;}
+p,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
 ul {list-style-type: none;}
 
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+}
+
+* {
+    max-width: 1440px ;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    clip-path: inset(50%);
+}
+
+.conteiner{
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*--------------HEADER------------- */
+.header{}
+
+.section-header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 
 
 .header-logo {
@@ -20,6 +79,7 @@ color:#4d5ae5
 
 .logo-span { color: #2e2f42 }
 
+.header-menu-item{}
 
 .header-menu-link {
 font-weight: 500;
@@ -35,6 +95,9 @@ color: #2e2f42;
 .address{
     font-style: normal;
 }
+
+.address-menu{}
+
 .address-menu-link {
 font-family: "Roboto", sans-serif;
 font-size: 16px;
@@ -45,9 +108,20 @@ color: #434455;
 }
 .address-menu-link:hover,
 .address-menu-link:focus{color: #404bbf}
-/*-------------- HERO------------- */
 
-.hero {background-color:#2e2f42;}
+
+
+/*-------------- HERO------------- */
+.conteiner-hero{
+    height: 600px;
+
+    
+    padding-top: 188px;
+    padding-bottom: 188px;
+
+}
+.hero {
+    background-color:#2e2f42;}
 
 .hero-title {
 font-weight: 700;
@@ -57,6 +131,9 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #ffffff;
 background-color: #2e2f42;
+max-width: 496px;
+margin: 0 auto;
+margin-bottom: 48px;
 }
 
 .hero-btn {font-weight: 500;
@@ -66,7 +143,14 @@ letter-spacing: 0.04em;
 color: #fff;
 cursor: pointer;
 background-color: #4D5AE5;
+height: 56px;
+width: 169;
+border-radius: 4px;
+padding: 16px 32px;
+
 }
+
+
 .hero-btn:hover,
 .hero-btn:focus { background-color: #404BBF}
 
@@ -79,6 +163,7 @@ line-height: 1.20;
 letter-spacing: 0.02em;
 color: #2e2f42;
 text-transform: capitalize;
+margin: 8px;
 }
 
 .fuetures-item-text {
@@ -86,7 +171,9 @@ font-size: 16px;
 line-height: 1.50;
 letter-spacing: 0.02em;
 color: #434455;
-background-color: #FFFFFF;}
+background-color: #FFFFFF;
+max-width:264px ;
+}
 
 
 /*-------------- TASTE------------- */
@@ -95,7 +182,10 @@ background-color: #FFFFFF;}
 
 .taste {background: #f4f4fd;}
 .taste-menu {}
-.taste-list{background-color: #FFFFFF}
+.taste-list{background-color: #FFFFFF;}
+.taste-img{
+    margin-bottom: 32px;
+}
 .taste-item {
 font-weight: 700;
 font-size: 36px;
@@ -104,6 +194,7 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 text-transform: capitalize;
+margin-bottom: 72px;
 
 
 }
@@ -118,6 +209,7 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 text-transform: capitalize;
+margin-bottom: 8px;
 }
 
 .taste-text {
@@ -139,9 +231,10 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 text-transform: capitalize;
+margin-bottom: 72px;
 }
 
-
+.taste-img{}
 
 .portfolio-name {
 font-weight: 500;
@@ -149,6 +242,7 @@ font-size: 20px;
 line-height: 1.20;
 letter-spacing: 0.02em;
 color: #2e2f42;
+margin-bottom: 8px;
 }
 
 .portfolio-text {
@@ -157,13 +251,23 @@ line-height: 1.50;
 letter-spacing: 0.02em;
 color: #434455;
 }
+.list-first {
+    margin-bottom: 48px;
+}
+
+.list-second {
+    margin-bottom: 100px;
+}
 
 /*-------------- FOOTER------------- */
 
 .footer{
 background: #2e2f42;
-}
 
+}
+.conteiner-footer{
+    height: 312px;
+}
 .fouter-logo {
 font-family: "Raleway", sans-serif;
 font-weight: 700;
@@ -172,6 +276,10 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
+margin-bottom: 16px;
+
+
+
 }
 .footer-logo-span{color: #f4f4fd}
 
@@ -181,4 +289,8 @@ font-size: 16px;
 line-height: 1.50;
 letter-spacing: 0.02em;
 color: #f4f4fd;
+max-width: 264px;
+}
+.conteiner-footer{
+
 }
