@@ -251,13 +251,8 @@ line-height: 1.50;
 letter-spacing: 0.02em;
 color: #434455;
 }
-.list-first {
-    margin-bottom: 48px;
-}
 
-.list-second {
-    margin-bottom: 100px;
-}
+
 
 /*-------------- FOOTER------------- */
 
@@ -277,7 +272,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
 margin-bottom: 16px;
-
+padding-top: 100px;
 
 
 }
