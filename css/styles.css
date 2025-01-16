@@ -196,6 +196,7 @@ justify-self: center;
 /*-------------- FUETURES------------- */
 
    .fuetures{
+    padding: 120px 0;
    
    }
 
@@ -218,14 +219,14 @@ background-color: #FFFFFF;
 max-width:264px ;
 }
 .features-list{
-    
-  }
-
-  .fuetures-item {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     padding: 120px 0;
+  }
+
+  .fuetures-item {
+    
     flex-basis: calc((100% / 72) / 4);
 
   }
