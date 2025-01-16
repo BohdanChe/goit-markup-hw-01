@@ -75,7 +75,7 @@ img{
     display: flex;
     width: 1158px;
     padding: 0 15px;
-    margin: 0 auto;
+    
    
     
 }
@@ -103,11 +103,12 @@ margin-right: 76px;
 .header-menu{
     display: flex;
     gap:40px;
+    padding: 24px 0;
 }
 .header-menu-item{
     display: flex;
     justify-content: flex-end;
-    padding: 24px 0;
+    
 }
 
 .header-menu-link {
