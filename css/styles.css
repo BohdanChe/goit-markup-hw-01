@@ -154,7 +154,8 @@ color: #434455;
 
 /*-------------- HERO------------- */
 
-.hero {}
+.hero {padding-top: 188px;
+    padding-bottom: 188px;}
 
 .hero-title {
 font-weight: 700;
@@ -167,8 +168,7 @@ background-color: #2e2f42;
 max-width: 496px;
 margin: 0 auto;
 margin-bottom: 48px;
-padding-top: 188px;
-padding-bottom: 188px;
+
 }
 
 .hero-btn {font-weight: 500;
