@@ -207,10 +207,18 @@ line-height: 1.20;
 letter-spacing: 0.02em;
 color: #2e2f42;
 text-transform: capitalize;
-margin: 8px;
+margin-bottom: 8px;
 width: calc((100% - 72px) / 4);
 }
+.features-list {
+    padding: 120px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    }
 
+.fuetures-item {}
+    
 .fuetures-item-text {
 font-size: 16px;
 line-height: 1.50;
@@ -219,18 +227,7 @@ color: #434455;
 background-color: #FFFFFF;
 max-width:264px ;
 }
-.features-list{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-    padding: 120px 0;
-  }
 
-  .fuetures-item {
-    
-    
-
-  }
 
 /*-------------- TASTE------------- */
 
