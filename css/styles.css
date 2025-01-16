@@ -103,11 +103,11 @@ margin-right: 76px;
 .header-menu{
     display: flex;
     gap:40px;
-    padding: 24px 0;
 }
 .header-menu-item{
     display: flex;
     justify-content: flex-end;
+    padding: 24px 0;
     
 }
 
