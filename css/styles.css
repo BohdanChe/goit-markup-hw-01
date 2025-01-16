@@ -47,6 +47,9 @@ padding: 0;}
   
 }
 
+img{
+    display: block;
+}
 
 
 
@@ -230,7 +233,6 @@ max-width:264px ;
 .taste-menu {}
 .taste-list{background-color: #FFFFFF;}
 .taste-img{
-    display: block;
     justify-self: center;
     margin-bottom: 32px;
 }
@@ -282,9 +284,7 @@ text-transform: capitalize;
 margin-bottom: 72px;
 }
 
-.portfolio-img{
-    display: block;
-}
+.portfolio-img{}
 
 .portfolio-name {
 font-weight: 500;
