@@ -39,7 +39,7 @@ padding: 0;}
     clip-path: inset(50%);
 }
 
-.conteiner{
+.container{
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
@@ -153,7 +153,6 @@ color: #434455;
 
 /*-------------- HERO------------- */
 .conteiner-hero{
-    background-color: #2e2f42;
     padding-top: 188px;
     padding-bottom: 188px;
 }
@@ -194,7 +193,9 @@ justify-self: center;
 
 /*-------------- FUETURES------------- */
 
-    
+   .fuetures{
+   
+   }
 
 .fuetures-subtitle {
 font-weight: 500;
