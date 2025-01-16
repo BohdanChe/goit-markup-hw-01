@@ -94,20 +94,20 @@ font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color:#4d5ae5
+color:#4d5ae5;
+margin-right: 76px;
 }
 
 .logo-span { color: #2e2f42 }
 .header-menu{
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
     margin-left: 76px;
     gap:40px;
 }
 .header-menu-item{
     display: flex;
     justify-content: flex-end;
+    padding: 24px 0;
 }
 
 .header-menu-link {
@@ -284,7 +284,8 @@ text-transform: capitalize;
 margin-bottom: 72px;
 }
 
-.portfolio-img{}
+.portfolio-img{
+}
 
 .portfolio-name {
 font-weight: 500;
