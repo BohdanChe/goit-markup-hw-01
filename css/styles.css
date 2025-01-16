@@ -105,7 +105,6 @@ margin-right: 76px;
     gap:40px;
 }
 .header-menu-item{
-    display: flex;
     justify-content: flex-end;
     padding: 24px 0;
 }
