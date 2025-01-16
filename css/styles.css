@@ -107,7 +107,7 @@ margin-right: 76px;
 .header-menu-item{
     display: flex;
     justify-content: flex-end;
-    
+    padding: 24px 0;
 }
 
 .header-menu-link {
@@ -116,7 +116,7 @@ font-size: 16px;
 line-height: 1.50;
 letter-spacing: 0.02em;
 color: #2e2f42;
-padding: 24px 0;
+
 
 }
 .header-menu-link:hover,
@@ -184,7 +184,7 @@ padding: 16px 32px;
 display: block;
 min-width: 169px;
 height: 56px;
-bottom: none;
+border: none;
 justify-self: center;
 
 }
