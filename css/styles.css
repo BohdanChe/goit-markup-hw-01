@@ -153,10 +153,7 @@ color: #434455;
 
 
 /*-------------- HERO------------- */
-.conteiner-hero{
-    padding-top: 188px;
-    padding-bottom: 188px;
-}
+
 .hero {}
 
 .hero-title {
@@ -170,6 +167,8 @@ background-color: #2e2f42;
 max-width: 496px;
 margin: 0 auto;
 margin-bottom: 48px;
+padding-top: 188px;
+padding-bottom: 188px;
 }
 
 .hero-btn {font-weight: 500;
@@ -179,8 +178,6 @@ letter-spacing: 0.04em;
 color: #fff;
 cursor: pointer;
 background-color: #4D5AE5;
-height: 56px;
-width: 169;
 border-radius: 4px;
 padding: 16px 32px;
 display: flex;
