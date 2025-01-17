@@ -304,6 +304,10 @@ color: #434455;
 }
 /*-------------- PORTFOLIO-------------*/
 
+
+.portfolio{
+    padding: 120px 0;
+}
 .portfolio-item {
 font-weight: 700;
 font-size: 36px;
@@ -313,6 +317,13 @@ text-align: center;
 color: #2e2f42;
 text-transform: capitalize;
 margin-bottom: 72px;
+}
+
+.portfolio-menu{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .portfolio-img{
