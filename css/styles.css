@@ -233,12 +233,29 @@ max-width:264px ;
 
 
 
-.taste {background: #f4f4fd;}
-.taste-menu {}
-.taste-list{background-color: #FFFFFF;}
+.taste {background: #f4f4fd;
+    padding: 120px 0;
+}
+.taste-item{
+    margin-bottom: 72px;
+
+}
+.taste-menu {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap
+    
+}
+.taste-list{background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0 0 4px 4px;
+}
 .taste-img{
     justify-self: center;
-    margin-bottom: 32px;
+    
+}
+.taste-list{
+    
 }
 .taste-item {
 font-weight: 700;
@@ -264,6 +281,7 @@ text-align: center;
 color: #2e2f42;
 text-transform: capitalize;
 margin-bottom: 8px;
+
 }
 
 .taste-text {
@@ -274,7 +292,11 @@ text-align: center;
 color: #434455;
 }
 
-
+.taste-list{
+    padding: 32px 0;
+    text-align: center;
+    margin-bottom: 8px;
+}
 /*-------------- PORTFOLIO-------------*/
 
 .portfolio-item {
