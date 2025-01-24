@@ -73,6 +73,7 @@ display: block;
 
 .conteiner-header {
    height: 24px;
+   
     display: flex;
     white-space:nowrap;
     justify-content: end;}
@@ -80,7 +81,7 @@ display: block;
 
 .header-nav{
     display: flex;
-    align-items: center;
+   margin: 0 auto; 
     width: 1158px;
 }
 
@@ -99,10 +100,12 @@ margin-right: 76px;
 
 .logo-span { color: #2e2f42 }
 .header-menu{
+    height: 24px;
     display: flex;
     gap:40px;
 }
 .header-menu-item{
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
     
@@ -144,23 +147,29 @@ font-size: 16px;
 line-height: 1.50;
 letter-spacing: 0.02em;
 color: #434455;
+transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
 
-.lain::after{
-    content: "";
-    display: block;
-    width:100%;
-    height:4px;
-    background-color:#404bbf;
-    position: absolute;
+.header-menu-link.lain{
+    position: relative;
+}
 
-   
+.header-menu-link.lain::after{
+    content:"" ;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #404bbf;
 
 }
 .address-menu-link:hover,
-.address-menu-link:focus{color: #404bbf}
+.address-menu-link:focus,
+.header-menu-link.lain{color: #404bbf}
 
 
 
@@ -205,6 +214,7 @@ min-width: 169px;
 height: 56px;
 border: none;
 justify-self: center;
+transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -267,6 +277,7 @@ justify-items: center;}
     justify-content: center;
     margin-bottom: 8px;
     background-color: #f4f4fd;
+    
 }
 .icon{
 
@@ -293,10 +304,13 @@ justify-items: center;}
 .taste-list{background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .taste-img{
     justify-self: center;
     
+}
+.info-taste{gap: 24px;
 }
 .taste-list{
     
@@ -334,7 +348,36 @@ line-height: 1.50;
 letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
+margin-bottom: 8px;
 }
+.icon-conteiner{
+    display: flex;
+  justify-content: center;
+  gap: 24px;
+  transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+}
+
+
+.icon-social {
+    fill: #F4F4FD;
+
+}
+.taste-soc-link{
+    height: 40px;
+    width: 40px;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+}
+.taste-soc-link:hover{
+    background-color:#404BBF ;
+}
+
 
 .taste-list{
     text-align: center;
@@ -344,6 +387,9 @@ color: #434455;
 .info-taste{
     padding: 32px 0;
 }
+
+
+
 /*-------------- PORTFOLIO-------------*/
 
 
@@ -370,10 +416,38 @@ margin-bottom: 72px;
 }
 .portfolio-list{
 width: calc((100% - 48px) / 3);
+transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+}
+.portfolio-list:hover{
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .portfolio-img{
 }
 
+.portfolio-wrap{
+    position: relative;
+    overflow: hidden;
+}
+.portfolio-list-text{
+    position:absolute;
+    top: 0;
+    left: 0;
+    padding: 40px 32px;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    background-color: #4d5ae5;
+    height: 100%;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: auto;
+}
+.portfolio-list:hover .portfolio-list-text{
+    transform: translateY(0);
+}
 .portfolio-name {
 font-weight: 500;
 font-size: 20px;
@@ -404,9 +478,12 @@ color: #434455;
 background: #2e2f42;
 padding: 100px 0;
 
+
 }
 
-.conteiner-footer{}
+.conteiner-footer{
+    
+}
 .fouter-logo {
 font-family: "Raleway", sans-serif;
 font-weight: 700;
@@ -423,7 +500,14 @@ margin-bottom: 16px;
 }
 .footer-logo-span{color: #f4f4fd}
 
-
+.social-media-text{
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: #fff;
+}
 .footer-text {
 font-size: 16px;
 line-height: 1.50;
@@ -435,4 +519,7 @@ max-width: 264px;
 
 }
 
-
+.icon-conteine{}
+.position-footer{
+    
+}
