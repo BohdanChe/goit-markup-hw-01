@@ -77,6 +77,7 @@ display: block;
 .conteiner-header {
 
    padding-top: 24px;
+   padding-bottom: 21px;
     display: flex;
     white-space:nowrap;
     justify-content: end;}
@@ -108,7 +109,7 @@ margin-right: 76px;
     gap:40px;
 }
 .header-menu-item{
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
     
@@ -161,7 +162,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
 }
 
-.header-menu-link.lain::after{
+.header-menu-link::after{
     content:"" ;
     position: absolute;
     left: 0;
