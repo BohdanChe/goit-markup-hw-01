@@ -488,12 +488,19 @@ color: #434455;
 /*-------------- FOOTER------------- */
 
 .footer{
+    
 background: #2e2f42;
+
 padding: 100px 0;
 
 
-}
 
+
+}
+.conteiner-footer.container{
+   
+   
+}
 .conteiner-footer{
     
 }
@@ -528,11 +535,12 @@ letter-spacing: 0.02em;
 color: #f4f4fd;
 max-width: 264px;
 }
-.conteiner-footer{
 
+
+.icon-conteiner{
+    margin-right: 100px;
+    
 }
-
-.icon-conteine{}
 .position-footer{
     
 }
