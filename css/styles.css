@@ -485,14 +485,12 @@ color: #434455;
 
 
 .content-footer-list{
-    margin-right: 120px;
     display: flex;
     align-items: baseline;
 }
 
-
 .conteiner-footer{
-margin-right: 120px;
+    margin-right: 120px;
 }
 .fouter-logo {
 font-family: "Raleway", sans-serif;
@@ -504,9 +502,6 @@ text-transform: uppercase;
 color: #4d5ae5;
 display: inline-block;
 margin-bottom: 16px;
-
-
-
 }
 .footer-logo-span{color: #f4f4fd}
 
@@ -530,4 +525,8 @@ max-width: 264px;
     display: flex;
     justify-content: center;
     gap: 16px;
+}
+.link-footer:hover,
+.link-footer:focus{
+    background-color:#31d0aa; ;
 }
