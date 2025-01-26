@@ -488,11 +488,10 @@ padding: 100px 0;
 
 }
 .conteiner-footer.container{
-
-margin-right: 120px;
+    margin-right: 120px;
 }
 .conteiner-footer{
-    
+margin-right: 120px;
 }
 .fouter-logo {
 font-family: "Raleway", sans-serif;
