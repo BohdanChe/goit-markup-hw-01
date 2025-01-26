@@ -293,10 +293,7 @@ justify-items: center;}
 
     
 }
-.taste-item{
-     margin-bottom: 72px;
 
-}
 .taste-menu {
     display: flex;
     flex-wrap: wrap;
@@ -314,9 +311,7 @@ justify-items: center;}
 }
 .info-taste{gap: 24px;
 }
-.taste-list{
-    
-}
+
 .taste-item {
 font-weight: 700;
 font-size: 36px;
@@ -352,13 +347,7 @@ text-align: center;
 color: #434455;
 margin-bottom: 8px;
 }
-.icon-conteiner{
-    display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 24px;
-  transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 
 .test-list-icons{
     display: flex;
