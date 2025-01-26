@@ -480,16 +480,17 @@ color: #434455;
 
 .footer{
     background: #2e2f42;
-
-padding: 100px 0;
-
-
-
-
+    padding: 100px 0;
 }
-.conteiner-footer.container{
+
+
+.content-footer-list{
     margin-right: 120px;
+    display: flex;
+    align-items: baseline;
 }
+
+
 .conteiner-footer{
 margin-right: 120px;
 }
@@ -525,21 +526,8 @@ color: #f4f4fd;
 max-width: 264px;
 }
 
-
-.icon-conteiner{
-    
-    
-}
-.position-footer{
-    
-}
 .footer-list-icons {
     display: flex;
     justify-content: center;
     gap: 16px;
-}
-.all-footer{
-    display: flex;
-    align-items: baseline;
-
 }
