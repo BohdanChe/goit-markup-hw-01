@@ -488,6 +488,7 @@ padding: 100px 0;
 
 }
 .conteiner-footer.container{
+    
 margin-right: 120px;
 }
 .conteiner-footer{
@@ -537,4 +538,9 @@ max-width: 264px;
     display: flex;
     justify-content: center;
     gap: 16px;
+}
+.all-footer{
+    display: flex;
+    align-items: baseline;
+
 }
