@@ -573,16 +573,17 @@ max-width: 264px;
     background-color: #4D5AE5;
     border: none;
     padding: 8px 24px;
-}
-.sub-text{
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.04em;
     align-items: center;
-    margin-right:16px;
-    
+    margin-right: 16px;
     color: #fff;
+    gap: 16px;
+}
+.sub-text{
+    
 }
 .icon-telegram{
     fill:#FFFFFF ;
