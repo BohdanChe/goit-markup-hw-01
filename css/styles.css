@@ -530,6 +530,67 @@ max-width: 264px;
 .link-footer:focus{
     background-color:#31d0aa; ;
 }
+.abra-cadabra{
+    
+}
+.checkbox{
+    margin-left: 80px;
+
+}
+.fotter-sub{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+        
+}
+.fotter-email{
+    color: #FFFFFF;
+    width: 264px;
+    height: 40px;
+    border-radius: 4px;
+    border-color:#FFFFFF ;
+    background-color:#2E2F42 ;
+    padding-left: 16px;    
+   
+}
+ .fotter-email::placeholder{
+    opacity: 1;
+    color:#FFFFFF ;
+}
+.sub{margin-left: 24px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.button-sub{
+    display: flex;
+    width: 165px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #4D5AE5;
+    border: none;
+    padding: 8px 24px;
+}
+.sub-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    align-items: center;
+    margin-right:16px;
+    
+    color: #fff;
+}
+.icon-telegram{
+    fill:#FFFFFF ;
+    align-items: center;
+}
+/*----------------Beacdrop------------------------------Beacdrop--------------*/
+
+
 .backdrop{
     width: 100%;
     height: 100%;
@@ -537,7 +598,16 @@ max-width: 264px;
     background-color: rgba(46, 47, 66, 0.4); 
     top: 0;
 
+    opacity: 0;
+    visibility:hidden ;
+    pointer-events: none;
 
+
+}
+.is-open{
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
 }
 
 .modal{
@@ -562,13 +632,22 @@ max-width: 264px;
     position: absolute;
     top:24px;
     right:24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
     
 
 }
+
+
+
+
 .icon-modal{
     fill:#2E2F42;
-   margin: auto;
+   
+
+
 
     
 }
@@ -665,6 +744,13 @@ max-width: 264px;
     resize: none;
 
 }
+.modal-close:hover{
+    background-color:#404BBF ;
+    border: none;
+}
+.modal-close:hover .icon-modal{
+    fill: #ffffff;
+}
 .modal-button{width: 169px;
     height: 56px;
     padding-top: 16px;
@@ -685,4 +771,43 @@ max-width: 264px;
     margin: 0 auto;
     
 
+}
+.modal-fild-coment{
+    margin-bottom: 16px;
+}
+.modal-check-text{
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+    display: flex;
+    align-items: center;
+}
+
+.checkbox{
+    margin-bottom: 24px;
+}
+.modal-check-item{
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    margin-right: 8px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    fill: transparent;
+    
+}
+.modal-check:checked + .modal-check-text .modal-check-item{
+    background-color:#404bbf;
+    border: none;
+    
+}
+.check-item{
+   fill: #f4f4fd
+}
+.modal-policy{
+    color:#4D5AE5 ;
+    text-decoration: underline;
 }
