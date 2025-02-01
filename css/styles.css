@@ -546,14 +546,23 @@ max-width: 264px;
     margin-bottom: 16px;
         
 }
+.fotter-sub-form{
+    display: flex;
+    gap: 24px;
+}
 .fotter-email{
+    letter-spacing: 0.04em;
+    line-height: 2;
+    font-size: 12px;
     color: #FFFFFF;
     width: 264px;
     height: 40px;
     border-radius: 4px;
-    border-color:#FFFFFF ;
-    background-color:#2E2F42 ;
-    padding-left: 16px;    
+    border: 1px solid #ffffff;
+    background-color:transparent ;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
    
 }
  .fotter-email::placeholder{
@@ -567,7 +576,7 @@ max-width: 264px;
 }
 .button-sub{
     display: flex;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     border-radius: 4px;
     background-color: #4D5AE5;
@@ -578,6 +587,7 @@ max-width: 264px;
     line-height: 150%;
     letter-spacing: 0.04em;
     align-items: center;
+    justify-content: center;
     margin-right: 16px;
     color: #fff;
     gap: 16px;
