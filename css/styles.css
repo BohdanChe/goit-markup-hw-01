@@ -591,6 +591,7 @@ max-width: 264px;
     margin-right: 16px;
     color: #fff;
     gap: 16px;
+    cursor: pointer;
 }
 .sub-text{
     
@@ -598,6 +599,7 @@ max-width: 264px;
 .icon-telegram{
     fill:#FFFFFF ;
     align-items: center;
+    margin-left: 16px;
 }
 /*----------------Beacdrop------------------------------Beacdrop--------------*/
 
