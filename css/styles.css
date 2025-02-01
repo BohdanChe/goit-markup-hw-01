@@ -671,8 +671,8 @@ max-width: 264px;
     
 }
 
-.icon-modal:focus,
-.icon-modal:hover {
+.modal-close:focus,
+.modal-close:hover {
     fill: #FFFFFF;
 }
 .text-modal{
