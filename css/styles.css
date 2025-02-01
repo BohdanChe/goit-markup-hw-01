@@ -812,10 +812,10 @@ max-width: 264px;
     letter-spacing: 0.04em;
     color: #8e8f99;
     display: flex;
-    align-items: center;
-}
+    align-items: center;}
+   
 
-.checkbox{
+.check-box{
     margin-bottom: 24px;
 }
 .modal-check-item{
