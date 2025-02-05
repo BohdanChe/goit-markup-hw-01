@@ -569,8 +569,7 @@ max-width: 264px;
     opacity: 1;
     color:#FFFFFF ;
 }
-.sub{margin-left: 24px;
-    display: flex;
+.sub{margin-left: 80px;
     align-items: center;
     gap: 24px;
 }
@@ -588,9 +587,7 @@ max-width: 264px;
     letter-spacing: 0.04em;
     align-items: center;
     justify-content: center;
-    margin-right: 16px;
     color: #fff;
-    gap: 16px;
     cursor: pointer;
 }
 .sub-text{
