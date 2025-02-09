@@ -40,7 +40,8 @@ padding: 0;}
 }
 
 .container{
-max-width: 1158px;
+max-width:320px;
+width: 100%;
 padding-left: 15px;
 padding-right: 15px;
 margin: 0 auto;
@@ -181,8 +182,9 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 /*-------------- HERO------------- */
 
 .hero {
-padding-top: 188px;
-padding-bottom: 188px;
+/* padding-top: 188px;
+padding-bottom: 188px; */
+padding: 72px 52px;
 background-color: #2e2f42;
 background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
 background-repeat: no-repeat;
@@ -193,15 +195,20 @@ background-size: cover;
 }
 
 .hero-title {
+width: 100%;
+max-width: 216px;
 font-weight: 700;
-font-size: 56px;
-line-height: 1.07;
+font-size: 36px;
+/* font-size: 56px; */
+/* line-height: 1.07; */
+line-height: 1.1;
 letter-spacing: 0.02em;
 text-align: center;
 color: #ffffff;
-max-width: 496px;
+/* max-width: 496px; */
 margin: 0 auto;
-margin-bottom: 48px;
+/* margin-bottom: 48px; */
+margin-bottom: 72px;
 
 }
 
@@ -228,38 +235,57 @@ transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 /*-------------- FUETURES------------- */
 
-   .fuetures{
-    padding: 120px 0;
-   
-   }
+.fuetures{
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
 
 .fuetures-subtitle {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.20;
+display: flex;
+flex-wrap: wrap;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
 letter-spacing: 0.02em;
+text-align: center;
 color: #2e2f42;
-text-transform: capitalize;
 margin-bottom: 8px;
-width: calc((100% - 72px) / 4);
+justify-content: center;
+
 }
 .features-list {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    
 }
 
-.fuetures-item {
-
+.fuetures-item  {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 72px;
+    
+    
 }
+
+
+.fuetures-item:last-child{
+    margin-bottom: 0;
+}
+
+
     
 .fuetures-item-text {
+width: 100%;
+font-weight: 500;
 font-size: 16px;
 line-height: 1.50;
 letter-spacing: 0.02em;
 color: #434455;
 background-color: #FFFFFF;
 max-width:264px ;
+align-items: center;
 }
 .fuetures-item-icon{}
 
@@ -269,27 +295,32 @@ height: 112px;
 display: flex;
 
 align-items: center;
-justify-items: center;}
+justify-items: center;
+}
+
 .fuetures-item-box{
     display: flex;
     content: :'';
-    width: 264px;
-    height:112px;
     border-radius:4px;
     border:1px solid #8e8f99;
     align-items: center;
     justify-content: center;
     margin-bottom: 8px;
     background-color: #f4f4fd;
-    
 }
-.icon{}
+.icon{
+
+}
+
+
+
 /*-------------- TASTE------------- */
 
 
 
 .taste {background: #f4f4fd;
-    padding: 120px 0;
+    /* padding: 120px 0; */
+    padding: 96px 0;
 
     
 }
@@ -297,16 +328,30 @@ justify-items: center;}
 .taste-menu {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    justify-content: center;
+    /* gap: 24px; */
    
 }
-.taste-list{background-color: #FFFFFF;
-    width: calc((100% - 72px) / 4);
+.taste-list{
+    
+    text-align: center;
+    width:264px;
+    width: 100%;
+    background-color: #FFFFFF;
+    /* width: calc((100% - 72px) / 4); */
     border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    margin-bottom: 72px;
 }
+.taste-list:last-child{
+    margin-bottom: 0;
+}
+
 .taste-img{
     justify-self: center;
+    width: 100%;
+
+   
     
 }
 .info-taste{gap: 24px;
@@ -383,12 +428,7 @@ margin-bottom: 8px;
 }
 
 
-.taste-list{
-    text-align: center;
-    margin-bottom: 8px;
-    
-    
-}
+
 .info-taste{
     padding: 32px 0;
     
@@ -399,7 +439,9 @@ margin-bottom: 8px;
 /*-------------- PORTFOLIO-------------*/
 
 
-.portfolio{padding: 120px 0;
+.portfolio{
+    /* padding: 120px 0; */
+    padding: 96px 0;
 
     
 }
@@ -415,13 +457,16 @@ margin-bottom: 72px;
 }
 
 .portfolio-menu{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    margin: 0 auto;
 }
 .portfolio-list{
-width: calc((100% - 48px) / 3);
+    width: 100%;
+/* width: calc((100% - 48px) / 3); */
 transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-list:hover{
@@ -480,13 +525,15 @@ color: #434455;
 
 .footer{
     background: #2e2f42;
-    padding: 100px 0;
+    /* padding: 100px 0; */
+    padding: 96px 0;
 }
 
 
 .content-footer-list{
     display: flex;
     align-items: baseline;
+    margin-bottom: 72px;
 }
 
 .conteiner-footer{
@@ -518,7 +565,8 @@ font-size: 16px;
 line-height: 1.50;
 letter-spacing: 0.02em;
 color: #f4f4fd;
-max-width: 264px;
+/* max-width: 264px; */
+max-width: 288px;
 }
 
 .footer-list-icons {
@@ -841,4 +889,173 @@ border: none;
 .modal-policy{
     color:#4D5AE5 ;
     text-decoration: underline;
+}
+@media (min-width:768px) {
+
+
+ /*-------------- HERO------------- */
+.hero{
+    padding-top: 112px;
+    padding-bottom: 112px;
+   
+    
+}
+
+.hero-title{
+    max-width: 496px;
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 496px;
+
+}
+
+
+
+ /*-------------- FUETURES------------- */
+    .container {
+        max-width: 768px;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin: 0 auto;
+      
+
+    }
+
+    .fuetures-subtitle{
+    justify-content:start;
+
+
+    }
+
+    .features-list{
+        gap: 24px;
+       
+    }
+
+    .fuetures-item-text {
+        width: 100%;
+        max-width:356px;
+    }
+
+
+
+    .fuetures-item {
+        width: calc((100% - 24px) / 2);
+
+
+
+    }
+
+ /*-------------- TASTE------------- */
+
+.taste-menu{
+    gap: 24px;
+    row-gap: 64px;
+}
+
+.taste-list {
+    
+    width: calc((100% - 72px) / 2);
+    margin-bottom: 0;
+}
+
+ /*-------------- PORTFOLIO-------------*/
+
+ .portfolio-list{
+    width: calc((100% - 48px) / 2);
+ }
+
+ /*-------------- FOOTER------------- */
+   
+
+}
+
+
+/*------------WIDTH-1158-PX---WIDTH-1158-PX----------*/
+
+
+
+@media (min-width:1158px) {
+ /*-------------- HERO------------- */
+ .hero{
+    padding-top: 188px;
+    padding-bottom: 188px;
+ }
+
+
+ 
+ /*-------------- FUETURES------------- */
+    .fuetures{
+        padding: 120px 0;
+    }
+
+    .container{
+        max-width: 1158px;
+    }
+
+    
+
+    .fuetures-subtitle{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.20;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        width: calc((100% - 24px) / 4);
+    }
+
+    .fuetures-item{
+        margin-bottom: 0;
+
+    }
+
+    .features-list{
+        flex-wrap: nowrap;
+    }
+    
+    
+    .fuetures-item-box{
+    width: 264px;
+    height: 112px;
+    }
+
+    .fuetures-item-text{
+        max-width:264px ;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: #434455;
+        font-weight: 400;
+        font-family: "Roboto", sans-serif;
+
+    }
+    
+ /*-------------- TASTE------------- */
+    .taste-list{
+    width: calc((100% - 72px) / 4);
+    }
+
+
+ /*-------------- PORTFOLIO-------------*/
+    .portfolio {
+        padding: 120px 0;
+    }
+
+    .portfolio-list {
+        width: calc((100% - 48px) / 3);
+    }
+
+ /*-------------- FOOTER------------- */
+        
+
+}
+
+
+
+
+@media (max-width:1158px) {
+    .fuetures-item-box {
+        display: none;
+    }
+    
 }
