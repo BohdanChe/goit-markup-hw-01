@@ -66,7 +66,13 @@ display: block;
 
 /*--------------HEADER------------- */
 
+.menu-open{
+    display: flex;
+    border: none;
+    background-color: transparent;
+    align-items: center;
 
+}
 .header{
   
     border-bottom:  1px solid #e7e9fc ;
@@ -76,9 +82,10 @@ display: block;
 }
 
 .conteiner-header {
+    padding: 16px;
 
-   padding-top: 24px;
-   padding-bottom: 21px;
+   /* padding-top: 24px;
+   padding-bottom: 21px; */
     display: flex;
     white-space:nowrap;
     justify-content: end;}
@@ -93,6 +100,7 @@ display: block;
 
 
 .header-logo {
+    display: flex;
 font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
@@ -101,12 +109,13 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color:#4d5ae5;
 margin-right: 76px;
+align-items: center;
 }
 
 .logo-span { color: #2e2f42 }
 .header-menu{
-    
-    display: flex;
+    display: none;
+    /* display: flex; */
     gap:40px;
 }
 .header-menu-item{
@@ -140,7 +149,8 @@ margin-right: 76px;
 }
 
 .address-menu{
-    display: flex;
+    display: none;
+    /* display: flex; */
     align-items: center;
     gap: 40px;
     justify-content: end;}
