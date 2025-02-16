@@ -1303,8 +1303,8 @@ border: none;
     padding-left: 24px;
     padding-right: 24px;
    }
-
-
+   
+}
 /*------------WIDTH-1158-PX---WIDTH-1158-PX----------*/
 
 
@@ -1452,7 +1452,7 @@ border: none;
     width: 264px;
 }
 
-
+}
 
 @media (max-width:1158px) {
     .fuetures-item-box {
